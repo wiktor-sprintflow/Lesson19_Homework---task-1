@@ -13,7 +13,8 @@ public class FilteringMachineTest {
 
     private FilteringMachine machine = new FilteringMachine();
 
-    @Test public void shouldFilterOutNotEvenNumbers() {
+    @Test
+    public void shouldFilterOutNotEvenNumbers() {
 
         // given
         List<Integer> numberList = new ArrayList<>();
@@ -35,7 +36,8 @@ public class FilteringMachineTest {
         assertThat(filteredList, hasItem(124));
     }
 
-    @Test public void shouldFilterOutNumberLowerThan20() {
+    @Test
+    public void shouldFilterOutNumberLowerThan20() {
 
         // given
         List<Integer> numberList = new ArrayList<>();
